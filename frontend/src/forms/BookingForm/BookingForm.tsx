@@ -48,7 +48,7 @@ const BookingForm = ({currentUser, paymentIntent} : Props) => {
 
   const { handleSubmit, register } = useForm<BookingFormData>({defaultValues:{
     firstName: currentUser.firstName,
-    lastName: currentUser.lastname,
+    lastName: currentUser.lastName,
     email: currentUser.email,
     adultCount: search.adultCount,
     childCount: search.childCount,

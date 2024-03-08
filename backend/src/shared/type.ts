@@ -3,7 +3,7 @@ export type UserType = {
   email: string;
   password: string;
   firstName: string;
-  lastname: string;
+  lastName: string;
 };
 
 export type HotelType ={ 

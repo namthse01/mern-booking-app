@@ -112,7 +112,7 @@ router.post('/:hotelId/bookings/payment-intent', verifyToken, async (req: Reques
 
 });
 
-router.post("/:hotelId/bookings", verifyToken, async (req: Request, res: Response) => {
+router.post("/:hotelId/bookings", verifyToken, async(req: Request, res: Response) => {
   try{
     const paymentIntentId = req.body.paymentIntentId;
 
